@@ -36,13 +36,14 @@ const EditQuantity = ({ itemInfo }: EditQuantityPropsType) => {
     <View>
       <View style={{ display: "flex", flexDirection: "row", justifyContent: "center", alignItems: "center" }}>
         <TouchableOpacity
+          testID='decrement_btn'
           disabled={!items.length}
           onPress={removeItemFromCart}
         >
           <MinusCircleIcon size={32} color={items.length > 0 ? "#841584" : "gray"} />
         </TouchableOpacity>
         <Text>{items.length}</Text>
-        <TouchableOpacity onPress={addItemsToCart}>
+        <TouchableOpacity testID='increment_btn' onPress={addItemsToCart}>
           <PlusCircleIcon size={32} color={items.length > 0 ? "#841584" : "gray"} />
         </TouchableOpacity>
       </View>

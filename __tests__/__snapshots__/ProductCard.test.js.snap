@@ -1,0 +1,75 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Product Card unit tests renders correctly, snapshot test 1`] = `
+<View
+  accessible={true}
+  collapsable={false}
+  focusable={true}
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    Object {
+      "alignItems": "center",
+      "backgroundColor": "white",
+      "borderRadius": 8,
+      "justifyContent": "center",
+      "marginTop": "4%",
+      "opacity": 1,
+    }
+  }
+  testID="detail_btn"
+>
+  <Image
+    source={
+      Object {
+        "uri": "http://cdn-img.prettylittlething.com/9/0/a/a/90aa90903a135ee59594f47c7685aa7ef3046e44_cly8063_1.jpg?imwidth=1024",
+      }
+    }
+    style={
+      Object {
+        "aspectRatio": 1,
+        "resizeMode": "contain",
+        "width": "100%",
+      }
+    }
+    testID="product_img"
+  />
+  <View
+    style={
+      Object {
+        "padding": 16,
+      }
+    }
+  >
+    <Text
+      ellipsizeMode="tail"
+      numberOfLines={2}
+      style={
+        Object {
+          "fontSize": 20,
+          "fontWeight": "bold",
+        }
+      }
+    >
+      Black Sheet Strappy Textured Glitter Bodycon Dress
+    </Text>
+    <Text
+      style={
+        Object {
+          "fontSize": 16,
+          "fontWeight": "600",
+          "marginBottom": 8,
+        }
+      }
+    >
+      £ 
+      10
+    </Text>
+  </View>
+</View>
+`;

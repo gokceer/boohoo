@@ -23,7 +23,7 @@ const OrderDetailCard = () => {
           </View>
 
           <View style={styles.textRows}>
-            <Text style={styles.price}>Order Total </Text>
+            <Text style={styles.price}>Order Total</Text>
             <Text style={styles.price}>£ {cartTotal + 5}</Text>
           </View>
 

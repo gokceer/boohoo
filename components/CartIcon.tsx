@@ -16,8 +16,8 @@ const CartIcon = () => {
   const quantity = useAppSelector(selectCartItems);
 
   return (
-    <TouchableOpacity style={styles.quantityText} onPress={() => navigation.navigate("ShoppingCart")}>
-      <ShoppingBagIcon size={20} color="#841584" />
+    <TouchableOpacity testID='cart_btn' style={styles.quantityText} onPress={() => navigation.navigate("ShoppingCart")}>
+      <ShoppingBagIcon testID='cart_icon' size={20} color="#841584" />
       <Text>{quantity.length}</Text>
     </TouchableOpacity>
   )

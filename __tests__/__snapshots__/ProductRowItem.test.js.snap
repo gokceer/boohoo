@@ -1,0 +1,252 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Product Row Item unit tests renders correctly, snapshot test 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "display": "flex",
+      "flex": 1,
+      "flexDirection": "row",
+      "justifyContent": "center",
+      "paddingHorizontal": 5,
+      "paddingVertical": 10,
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+      }
+    }
+  >
+    <View>
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "display": "flex",
+            "flexDirection": "row",
+            "justifyContent": "center",
+          }
+        }
+      >
+        <View
+          accessibilityState={
+            Object {
+              "disabled": true,
+            }
+          }
+          accessible={true}
+          collapsable={false}
+          focusable={true}
+          onClick={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Object {
+              "opacity": 1,
+            }
+          }
+          testID="decrement_btn"
+        >
+          <RNSVGSvgView
+            align="xMidYMid"
+            aria-hidden="true"
+            bbHeight="32"
+            bbWidth="32"
+            color="gray"
+            fill="currentColor"
+            focusable={false}
+            height={32}
+            meetOrSlice={0}
+            minX={0}
+            minY={0}
+            style={
+              Array [
+                Object {
+                  "backgroundColor": "transparent",
+                  "borderWidth": 0,
+                },
+                Object {
+                  "flex": 0,
+                  "height": 32,
+                  "width": 32,
+                },
+              ]
+            }
+            tintColor="gray"
+            vbHeight={24}
+            vbWidth={24}
+            width={32}
+          >
+            <RNSVGGroup
+              fill={
+                Object {
+                  "type": 2,
+                }
+              }
+              propList={
+                Array [
+                  "fill",
+                ]
+              }
+            >
+              <RNSVGPath
+                clipRule={0}
+                d="M12 2.25c-5.385 0-9.75 4.365-9.75 9.75s4.365 9.75 9.75 9.75 9.75-4.365 9.75-9.75S17.385 2.25 12 2.25zm3 10.5a.75.75 0 000-1.5H9a.75.75 0 000 1.5h6z"
+                fillRule={0}
+                propList={
+                  Array [
+                    "fillRule",
+                  ]
+                }
+              />
+            </RNSVGGroup>
+          </RNSVGSvgView>
+        </View>
+        <Text>
+          0
+        </Text>
+        <View
+          accessible={true}
+          collapsable={false}
+          focusable={true}
+          onClick={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Object {
+              "opacity": 1,
+            }
+          }
+          testID="increment_btn"
+        >
+          <RNSVGSvgView
+            align="xMidYMid"
+            aria-hidden="true"
+            bbHeight="32"
+            bbWidth="32"
+            color="gray"
+            fill="currentColor"
+            focusable={false}
+            height={32}
+            meetOrSlice={0}
+            minX={0}
+            minY={0}
+            style={
+              Array [
+                Object {
+                  "backgroundColor": "transparent",
+                  "borderWidth": 0,
+                },
+                Object {
+                  "flex": 0,
+                  "height": 32,
+                  "width": 32,
+                },
+              ]
+            }
+            tintColor="gray"
+            vbHeight={24}
+            vbWidth={24}
+            width={32}
+          >
+            <RNSVGGroup
+              fill={
+                Object {
+                  "type": 2,
+                }
+              }
+              propList={
+                Array [
+                  "fill",
+                ]
+              }
+            >
+              <RNSVGPath
+                clipRule={0}
+                d="M12 2.25c-5.385 0-9.75 4.365-9.75 9.75s4.365 9.75 9.75 9.75 9.75-4.365 9.75-9.75S17.385 2.25 12 2.25zM12.75 9a.75.75 0 00-1.5 0v2.25H9a.75.75 0 000 1.5h2.25V15a.75.75 0 001.5 0v-2.25H15a.75.75 0 000-1.5h-2.25V9z"
+                fillRule={0}
+                propList={
+                  Array [
+                    "fillRule",
+                  ]
+                }
+              />
+            </RNSVGGroup>
+          </RNSVGSvgView>
+        </View>
+      </View>
+    </View>
+    <View
+      accessible={true}
+      collapsable={false}
+      focusable={false}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "opacity": 1,
+        }
+      }
+    >
+      <Text
+        onPress={[Function]}
+        style={
+          Object {
+            "color": "#841584",
+          }
+        }
+      >
+        Remove
+      </Text>
+    </View>
+  </View>
+  <Image
+    source={
+      Object {
+        "uri": "http://cdn-img.prettylittlething.com/9/0/a/a/90aa90903a135ee59594f47c7685aa7ef3046e44_cly8063_1.jpg?imwidth=1024",
+      }
+    }
+    style={
+      Object {
+        "aspectRatio": 1,
+        "flex": 1,
+        "resizeMode": "contain",
+        "width": "100%",
+      }
+    }
+    testID="product_img"
+  />
+  <Text
+    ellipsizeMode="tail"
+    numberOfLines={4}
+    style={
+      Object {
+        "flex": 1,
+      }
+    }
+  >
+    Black Sheet Strappy Textured Glitter Bodycon Dress
+  </Text>
+  <Text>
+    £ 
+    10
+  </Text>
+</View>
+`;

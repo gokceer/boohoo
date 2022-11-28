@@ -14,10 +14,11 @@ const ProductCard = ({ id, colour, name, price, img }: CommonProductObjectType) 
   // Display product in a card
   return (
     <TouchableOpacity
+      testID='detail_btn'
       key={id}
       style={styles.card}
       onPress={() => navigation.navigate("ProductDetail", { id, colour, name, price, img })}>
-      <Image source={{ uri: img }} style={styles.image} />
+      <Image testID={"product_img"} source={{ uri: img }} style={styles.image} />
       <View style={styles.infoContainer}>
         <Text style={styles.name} numberOfLines={2} ellipsizeMode='tail'>{name}</Text>
         <Text style={styles.price}>£ {price}</Text>

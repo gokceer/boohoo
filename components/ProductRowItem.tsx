@@ -28,7 +28,7 @@ const ProductRowItem = ({ items }: ProductRowItemPropsType) => {
         </TouchableOpacity>
       </View>
 
-      <Image style={styles.image} source={{ uri: items[0]?.img }} />
+      <Image testID={"product_img"} style={styles.image} source={{ uri: items[0]?.img }} />
       <Text style={{ flex: 1 }} numberOfLines={4} ellipsizeMode='tail'>{items[0]?.name}</Text>
       <Text>
         £ {items[0]?.price * items.length}
